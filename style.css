@@ -1,0 +1,192 @@
+.page-body{
+	position: relative;
+	height: 100vh;
+}
+.certificate-container{
+	background: url('./img/background.png') #A18484;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 640px;
+	width: 900px;
+}
+.side-bar{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: #00AEFF;
+	width: 23px;
+}
+.certificate-content{
+	padding: 50px 50px 50px 80px;
+}
+.certificate-top{
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.certificate-logo-img{
+	height: 20px;
+	margin-right: 6px;
+}
+.certificate-verification-link{
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+}
+.certificate-verification-link p{
+	margin: 0;
+}
+.certificate-verification-link a{
+	text-decoration: none;
+	color: #000;
+}
+.certificate-body{
+	margin: 110px 0px 75px 0px;
+}
+.certificate-about{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+.certificate-body .certificate-receipient-name{
+	font-weight: 500;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 50px;
+	margin: 0;
+
+}
+.certificate-statement{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	width: 510px;
+}
+.certificate-statement-bold{
+	font-weight: 700;
+}
+.certificate-completed-stages{
+	font-family: 'Work Sans', sans-serif;
+	color: #00AEFF;
+	font-weight: 500;
+	margin-top: 18px;
+}
+.certificate-principal-signature{
+	height: 70px;
+}
+.certificate-principal-name{
+	font-family: 'Work Sans', sans-serif;
+	margin: 0px;
+	font-weight: 600;
+}
+.certificate-principal-details{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+
+@media screen and (max-width: 950px){
+	.certificate-container{
+		height: 500px;
+		width: 700px;
+	}
+	.certificate-content{
+		padding: 39px 39px 39px 62px;
+	}
+	.certificate-top{
+		margin-bottom: 15px;
+	}
+	.certificate-logo-img{
+		height: 15px;
+		margin-right: 4px;
+	}
+	.certificate-verification-link{
+		font-size: 8px;
+	}
+	.certificate-body{
+		margin: 86px 0px 58px 0px;
+	}
+	.certificate-about{
+		font-size: 19px;
+		font-weight: 400;
+		margin-bottom: 27px;
+	}
+	.certificate-body .certificate-receipient-name{
+		font-weight: 500;
+		font-size: 39px;
+	}
+	.certificate-statement{
+		font-size: 11px;
+		width: 398px;
+	}
+	.certificate-statement-bold{
+		font-weight: 700;
+	}
+	.certificate-completed-stages{
+		font-weight: 500;
+		margin-top: 14px;
+	}
+	.certificate-principal-signature{
+		height: 65px;
+	}
+	.certificate-principal-details{
+		font-size: 10px;
+		margin-top: 4px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.certificate-container{
+		height: 360px;
+		width: 500px;
+	}
+	.certificate-content{
+		padding: 27px 27px 27px 44px;
+	}
+	.certificate-top{
+		margin-bottom: 10px;
+	}
+	.certificate-logo-img{
+		height: 11px;
+		margin-right: 3px;
+	}
+	.certificate-verification-link{
+		font-size: 6px;
+	}
+	.certificate-body{
+		margin: 41px 0px 31px 0px;
+	}
+	.certificate-about{
+		font-size: 13px;
+		font-weight: 400;
+		margin-bottom: 27px;
+	}
+	.certificate-body .certificate-receipient-name{
+		font-weight: 500;
+		font-size: 28px;
+	}
+	.certificate-statement{
+		font-size: 8px;
+		width: 290px;
+	}
+	.certificate-statement-bold{
+		font-weight: 700;
+	}
+	.certificate-completed-stages{
+		font-weight: 500;
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.certificate-principal-signature{
+		height: 65px;
+	}
+	.certificate-principal-details{
+		font-size: 7px;
+		margin-top: 3px;
+	}
+}
